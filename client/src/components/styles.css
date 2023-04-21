@@ -1,0 +1,58 @@
+/* .linkLike{
+ 
+} */
+.hide{
+    display: none;
+  }
+.credentials{
+    /* margin-top: 20px; */
+}
+.newMovies{
+  overflow-y:hidden
+}
+.eachMovie{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 15rem ;
+  width: 20rem;
+  /* border-style: double;
+  display: none; */
+  
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.emovies{
+  height: 27rem ;
+  width: 20rem;
+  padding-left: 3px;
+
+align-items: center;
+flex-wrap: wrap;
+}
+h1{
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+p{
+  color: aliceblue;
+}
+
