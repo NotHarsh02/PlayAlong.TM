@@ -25,7 +25,7 @@ app.use(cors({
 
 
 const mongoUrl=
-   "mongodb+srv://Harsh:harsh2002@cluster0.essf6ex.mongodb.net/PlayAlong"
+   'mongourl here"
 
 mongoose.connect(mongoUrl, {
     useNewUrlParser: true,
@@ -46,7 +46,7 @@ const sessionConfig = {
     resave: false,
     saveUninitialized: false,
     store: MongoStore.create({
-      mongoUrl: 'mongodb+srv://Harsh:harsh2002@cluster0.essf6ex.mongodb.net/PlayAlong',
+      mongoUrl: 'mongourl here',
       collection: 'sessions'
     }),
     cookie: { secure: false } ,
