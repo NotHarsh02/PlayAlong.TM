@@ -35,8 +35,8 @@ return(<>
 
 <h2 className='mt-4'>Now Running Movies</h2>
 <Swiper 
-        slidesPerView={5}
-        spaceBetween={0}
+        slidesPerView={10}
+        spaceBetween={15}
         pagination={{
           clickable: true,
         }}
